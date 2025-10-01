@@ -39,5 +39,5 @@ app.get("/questions/:testNumber", (req, res) => {
 
 // Listen on all network interfaces so devices on LAN can connect
 app.listen(PORT, "0.0.0.0", () => {
-  console.log(`Server running on all interfaces at port ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
